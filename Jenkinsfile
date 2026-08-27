@@ -19,6 +19,8 @@ pipeline {
         MAVEN_HOME = 'D:/apache-maven-3.8.5'
 
         // BACKEND
+
+        
         APP_JAR = 'target/student-management-0.0.1-SNAPSHOT.jar'
         BACKEND_PORT = '8080'
         BACKEND_URL = 'http://localhost:8080/students'
