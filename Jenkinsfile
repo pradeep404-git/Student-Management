@@ -27,7 +27,7 @@ pipeline {
         APPZ_HOME = 'D:/apache-tomcat-9.0.53'
         APPZ_ARTIFACTS = 'D:/forDeploy' // fallback if QUIZZ_BIN missing
         QUIZZ_PROJECT = 'C:/Users/pradeep.sankonatti/Desktop/DailyTasks/studentmgmt' // Appzillon project root (contains .apzprj)
-        QUIZZ_BIN = 'C:/Users/pradeep.sankonatti/Desktop/DailyTasks/studentmgmt/bin' // -> Web/*.war, Server/*.war, Properties/*, Database/MySql/*.sql
+        QUIZZ_BIN = 'C:/Users/pradeep.sankonatti/Desktop/DailyTasks/appzillon/studentmgmt/student/bin' // -> Web/*.war, Server/*.war, Properties/*, Database/MySql/*.sql
         TOMCAT_PORT = '8084'
         APPZILLON_URL = 'http://localhost:8084/student/'
 
