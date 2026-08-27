@@ -164,10 +164,10 @@ pipeline {
 
                 bat '''
                     @echo off
-                    if not exist "%WORKSPACE%\\target\\quiz-bg-1.0.0.jar" (
+                    if not exist "%WORKSPACE%\\target\\student-management-0.0.1-SNAPSHOT.jar" (
                         echo ERROR: JAR NOT FOUND
                         echo Expected:
-                        echo %WORKSPACE%\\target\\quiz-bg-1.0.0.jar
+                        echo %WORKSPACE%\\target\\student-management-0.0.1-SNAPSHOT.jar
                         exit /b 1
                     )
 
