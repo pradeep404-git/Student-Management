@@ -129,8 +129,8 @@ pipeline {
 
                 bat '''
                     @echo off
-                    if not exist "target\\quiz-bg-1.0.0.jar" (
-                        echo ERROR: target\\quiz-bg-1.0.0.jar NOT FOUND
+                    if not exist "target\\student-management-0.0.1-SNAPSHOT.jar" (
+                        echo ERROR: target\\student-management-0.0.1-SNAPSHOT.jar NOT FOUND
                         echo.
                         echo Target directory contents:
                         if exist target (
