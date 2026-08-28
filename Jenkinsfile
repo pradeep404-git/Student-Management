@@ -40,7 +40,7 @@ pipeline {
         MYSQL_BIN = 'C:/Program Files/MySQL/MySQL Server 8.0/bin'
 
         // PLAYWRIGHT - runs AFTER UI popup (UI must be on APPZILLON_URL)
-        PLAYWRIGHT_DIR = 'D:/playwright-quizzz'
+        PLAYWRIGHT_DIR = 'D:/Playwright_handson'
         // NOTE: All stages below read from above vars via %VAR% (bat) or $env:VAR (powershell) - no hardcoding inside stages
     }
 
